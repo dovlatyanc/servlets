@@ -29,7 +29,7 @@ public class CalcServlet extends HttpServlet {
                     <input type="radio" name="operation" value="avg"> Среднее<br>
                     <input type="submit" value="Вычислить">
                 </form>
-                <a href='/servlets-maven-tomcat-1.0-SNAPSHOT/'>Назад</a>
+                   out.println("<a href='/web-app/'>Назад</a>");
             </body>
             </html>
             """);

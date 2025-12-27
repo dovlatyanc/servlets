@@ -19,7 +19,7 @@ public class QuoteServlet extends HttpServlet {
         out.println("<h1>Цитата Линуса Торвальдса</h1>");
         out.println("<p>Bad programmers worry about the code. " +
                 "Good programmers worry about data structures and their relationships</p>");
-        out.println("<a href='/servlets-maven-tomcat-1.0-SNAPSHOT/'>Назад</a>");
+        out.println("<a href='/web-app/'>Назад</a>");
         out.println("</body></html>");
     }
 }

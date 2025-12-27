@@ -54,7 +54,7 @@ public class MultyTableServlet extends HttpServlet{
 
         }
         out.println("<div> "+ isLearned + "<div/>");
-        out.println("<a href='/servlets-maven-tomcat-1.0-SNAPSHOT/'>Назад</a>");
+        out.println("<a href='/web-app/'>Назад</a>");
 
 
     }
